@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   //fetvh data from server -> bots response
-  const response = await fetch("https://askme-open-ai.vercel.app/" , {
+  const response = await fetch("https://ask-me-1z37.onrender.com/" , {
     method: 'POST',
         headers: {
             'Content-Type': 'application/json',
